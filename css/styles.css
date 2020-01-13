@@ -1,0 +1,93 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-size: 10px;
+  box-sizing: border-box;
+}
+body{
+  background-image: url('../images/fondop.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+section {
+  height: 100vh;
+}
+
+#contenido{
+  
+  height: 100%;
+  display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.titulo{
+  font-family: 'Poppins', sans-serif;
+  color: #6200ea;
+  font-weight: 800;
+  font-size: 3rem;
+  padding: 1rem;
+}
+.sinEnfasis{
+  font-weight: 400;
+  color: #000000;
+} 
+.parrafo{
+  font-family: 'Roboto', sans-serif;
+  color: #000000;
+  font-weight: 700;
+  font-size: 1.5em;
+  text-align: justify;
+  padding: 1rem;
+}
+.contenedor-general{
+  width: 100%;
+}
+#imagen-telefono{
+  padding-top: 2rem;
+  padding-left: 6rem;
+}  
+
+#contenedor-texto{
+  background-color: #ffffff;
+  border-radius: 20px;
+}
+ 
+#center{
+  height: 100vh;
+}
+ 
+@media(min-width:480px){
+  html{
+    font-size: 13px;
+  }
+}
+
+@media(min-width: 768px){
+  html{
+    font-size: 12px;
+  }
+}
+@media(min-width:992px){
+  html{
+    font-size: 15px;
+  }
+}
+@media(min-width:1200px){
+  html{
+    font-size: 10px;
+  }
+}
+@media(min-width:1919.98px){
+  html{
+    font-size: 16px;
+  }
+  .parrafo{
+    font-family: 'Roboto', sans-serif;
+    color: #000000;
+    font-weight: 700;
+    font-size: 1.2em;
+    text-align: justify;
+    padding: 1rem;
+  }
+}
